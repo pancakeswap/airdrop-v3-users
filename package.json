@@ -2,7 +2,14 @@
   "name": "airdrop-v3",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
   "devDependencies": {
     "bun-types": "^0.5.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "viem": "^0.3.6"
   }
 }
