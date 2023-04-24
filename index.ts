@@ -5,16 +5,16 @@ import { Address, isAddress, parseEther, formatEther } from 'viem';
 const csvBaseFilePath = `${import.meta.dir ?? '.'}/csvs`;
 
 const part1 = {
-  btcb: `${csvBaseFilePath}/btcb_wbnb_p1_p.csv`,
-  busd: `${csvBaseFilePath}/busd_wbnb_p1_p.csv`,
-  eth: `${csvBaseFilePath}/eth_wbnb_p1_p.csv`,
-  usdt: `${csvBaseFilePath}/usdt_wbnb_p1_p.csv`,
+  btcb: `${csvBaseFilePath}/btcb_wbnb_p1_p_0424.csv`,
+  busd: `${csvBaseFilePath}/busd_wbnb_p1_p_0424.csv`,
+  eth: `${csvBaseFilePath}/eth_wbnb_p1_p_0424.csv`,
+  usdt: `${csvBaseFilePath}/usdt_wbnb_p1_p_0424.csv`,
 };
 const part2 = {
-  btcb: `${csvBaseFilePath}/btcb_wbnb_p2_p.csv`,
-  busd: `${csvBaseFilePath}/busd_wbnb_p2_p.csv`,
-  eth: `${csvBaseFilePath}/eth_wbnb_p2_p.csv`,
-  usdt: `${csvBaseFilePath}/usdt_wbnb_p2_p.csv`,
+  btcb: `${csvBaseFilePath}/btcb_wbnb_p2_p_0424.csv`,
+  busd: `${csvBaseFilePath}/busd_wbnb_p2_p_0424.csv`,
+  eth: `${csvBaseFilePath}/eth_wbnb_p2_p_0424.csv`,
+  usdt: `${csvBaseFilePath}/usdt_wbnb_p2_p_0424.csv`,
 };
 
 const forSC: Record<
