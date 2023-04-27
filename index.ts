@@ -39,9 +39,9 @@ const forFE: Record<
 > = {};
 
 // SET THIS VALUE MANUALLY
-const cakePriceUSD = 4;
+const cakePriceUSD = 2.609;
 
-const DEFAULT_FE: typeof forFE[Address] = {
+const DEFAULT_FE: (typeof forFE)[Address] = {
   part1: {
     btcb: null,
     busd: null,
@@ -152,7 +152,7 @@ console.log('CAKE Price setting at', cakePriceUSD);
 
 console.log(
   'total in usd',
-  formatEther(totalCakeAmount * BigInt(cakePriceUSD)),
+  formatEther(BigInt(Number(totalCakeAmount.toString()) * cakePriceUSD)),
 );
 console.log(
   'Total Cake Injection in wei',
